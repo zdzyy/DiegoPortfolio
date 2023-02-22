@@ -90,6 +90,7 @@
     font-size: 14px;
     line-height: 16px;
     color: #2A7AE4;
+    text-decoration: none;
 }
 .proyectos__botonD{ 
     display: flex;
@@ -110,4 +111,5 @@
     text-align: center;
     line-height: 16px;
     color: #FFFFFF;
+    text-decoration: none;
 }
