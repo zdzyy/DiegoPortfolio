@@ -1,0 +1,113 @@
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    width: 327px;
+    height: 680px;
+}
+.proyectos__main {
+   width: 248px;
+   height: 26px; 
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 26px;
+   text-align: center;
+   color: #464646;
+}
+.proyectos__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 296px;
+    height: 1215px;
+}
+.proyectos__experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 296px;
+    height: 251px;
+}
+.proyectos__img {
+    width: 296px;
+    height: 144px;
+    border-radius: 10px;
+}
+.proyectos__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 8px; */
+    width: 296px;
+    height: 91px;
+}
+.proyectos__titulo{
+    width: 296px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.proyectos__subtitulo{
+    width: 296px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 0;
+}
+.proyectos__botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 296px;
+    height: 40px;
+}
+.proyectos__botonR{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 108px;
+    height: 40px;
+    border: 1px solid #2A7AE4;
+}
+.proyectos__botontextoR{
+    width: 76px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+}
+.proyectos__botonD{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    margin-left: 20px;
+    gap: 10px;
+    width: 96px;
+    height: 40px;
+    background: #2A7AE4;
+}
+.proyectos__botontextoD{
+
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+    color: #FFFFFF;
+}
