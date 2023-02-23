@@ -113,3 +113,175 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media screen and (min-width:360px) {
+    .proyectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 16px;
+
+        width: 768px;
+        height: 1100px;
+    }
+    .proyectos__main {
+        width: 248px;
+        height: 26px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        /* Preto/100% */
+        
+        color: #464646;
+    }
+    .proyectos__items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 64px;
+
+        width: 704px;
+        height: 1911px;
+    }
+    .proyectos__experiencia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+
+        width: 704px;
+        height: 427px;
+    }
+    .proyectos__img {
+        width: 704px;
+        height: 320px;
+
+        border-radius: 0px;
+    }
+    .proyectos__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+        width: 704px;
+        height: 91px;
+    }
+    .proyectos__titulo {
+        width: 704px;
+        height: 19px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+    .proyectos__subtitulo {
+        width: 704px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+    .proyectos__botones {
+        width: 704px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+
+        /* Preto/100% */
+
+        color: #464646;
+    }
+    .proyectos__botonR {
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        gap: 10px;
+
+        width: 108px;
+        height: 40px;
+
+        /* Azul/100% */
+
+        border: 1px solid #2A7AE4;
+    }
+    .proyectos__botontextoR {
+        width: 76px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+        /* Azul/100% */
+
+        color: #2A7AE4;
+    }
+    .proyectos__botonD {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        gap: 10px;
+
+        width: 96px;
+        height: 40px;
+
+        /* Azul/100% */
+
+        background: #2A7AE4;
+    }
+    .proyectos__botontextoD {
+        width: 64px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+
+        /* Preto/branco */
+
+        color: #FFFFFF;
+    }
+}
